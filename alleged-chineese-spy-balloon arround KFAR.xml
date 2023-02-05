@@ -96,15 +96,23 @@
     </nasal>
 
     <entry>
-      <type>ship</type>
+      <name>Tanker-1</name>
+      <callsign>alleged-chineese-spy-balloon</callsign>
+      <type>aircraft</type>
+      <class>jet_fighter</class>
+      <altitude-ft>50000</altitude-ft>
+      <speed-ktas>3</speed-ktas>
+      <bank>0</bank>
+
+      <TACAN-channel-ID>041X</TACAN-channel-ID>
       <model>Models/Military/alleged-chineese-spy-balloon.ac</model>
-      <name>alleged-chineese-spy-balloon</name>
-      <latitude type="double">46.932843</latitude>
-      <longitude type="double">-96.816134</longitude>
-      <speed-ktas type="double">-000</speed-ktas>
-      <rudder type="double">0.0</rudder>
-      <heading type="double">000</heading>
-      <altitude type="double">55000</altitude>
+      <fallback-model-index>515</fallback-model-index>
+      <latitude>46.932843</latitude>
+      <longitude>-96.816134</longitude>
+      <altitude>15000</altitude>
+      <heading>020</heading>
+      <speed>3</speed>
+      <roll>0</roll>
     </entry>
 
     
